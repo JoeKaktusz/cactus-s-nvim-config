@@ -1,0 +1,22 @@
+.
+├── init.lua
+├── lazy-lock.json
+├── lua
+│   ├── cactus
+│   │   ├── lazy.lua
+│   │   └── settings.lua
+│   └── plugins
+│       ├── autopairs.lua
+│       ├── completion.lua
+│       ├── copilot.lua
+│       ├── gitsigns.lua
+│       ├── lsp.lua
+│       ├── node_modules
+│       ├── package.json
+│       ├── package-lock.json
+│       ├── telescope.lua
+│       ├── theme.lua
+│       └── treesitter.lua
+└── tree.txt
+
+4 directories, 15 files
