@@ -22,3 +22,10 @@ vim.opt.termguicolors = true
 vim.opt.signcolumn = 'yes'
 vim.opt.swapfile = false
 
+-- Set the leader key
+vim.g.mapleader = " "
+
+-- Set custom keymappings
+vim.keymap.set('n', '<leader>e', ':Ex<CR>', { desc = 'Open file explorer' })
+vim.keymap.set('n', '<leader>w', ':w<CR>', { desc = 'Save the file' })
+vim.keymap.set('n', '<leader>q', ':q<CR>', { desc = 'Close neovim' })
