@@ -17,7 +17,7 @@ return {
         'ts_ls',
         'clangd',
         'rust_analyzer',
-        'lemminx', -- XML LSP as fallback for SAPUI5
+        'lemminx' 
       },
       automatic_installation = true,
       handlers = {
