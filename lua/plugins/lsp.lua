@@ -17,7 +17,7 @@ return {
         'ts_ls',
         'clangd',
         'rust_analyzer',
-        'lemminx' 
+        'lemminx'
       },
       automatic_installation = true,
       handlers = {
