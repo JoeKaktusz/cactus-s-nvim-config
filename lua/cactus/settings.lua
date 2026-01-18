@@ -27,5 +27,8 @@ vim.g.mapleader = " "
 
 -- Set custom keymappings
 vim.keymap.set('n', '<leader>e', ':Ex<CR>', { desc = 'Open file explorer' })
+vim.keymap.set('n', '<leader>we', ':w<CR>:Ex<CR>', { desc = 'Open file explorer' })
+vim.keymap.set('n', '<leader>ww', ':w<CR>', { desc = 'Save the file' })
 vim.keymap.set('n', '<leader>w', ':w<CR>', { desc = 'Save the file' })
 vim.keymap.set('n', '<leader>q', ':q<CR>', { desc = 'Close neovim' })
+vim.keymap.set('n', '<leader>t', ':terminal<CR>i', { desc = 'Open terminal in nvim' })
